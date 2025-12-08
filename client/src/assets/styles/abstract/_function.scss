@@ -1,0 +1,18 @@
+/*
+This file contains all the functions related
+to styling used in the project.
+*/
+
+/*******************************
+FUNCTIONS
+********************************/
+
+// Imports
+@use "sass:math";
+
+// function for px to REM conversion
+@function calcRemToPx($value) {
+    // used math  method to implement division
+    $remValue: math.div($value, 16px) * 1rem;
+    @return $remValue;
+}

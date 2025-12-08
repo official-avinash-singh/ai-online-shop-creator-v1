@@ -1,5 +1,18 @@
+/*
+This is mixin file.
+All mixins will be here.
+*/
+
+// Import Dependecies
+@use "sass:math";
+
 /*******************************
-This is breakpoint styles
+MIXINS
+********************************/
+
+
+/*******************************
+Bearkpoints Mixins 
 ********************************/
 
 // screen resolution variables for breakpoints
@@ -10,9 +23,6 @@ $screen-min-width-lg: 1025px;
 $screen-max-width-lg: 1555px;
 $screen-min-width-xlg: 1556px;
 
-/*******************************
-Bearkpoints Mixins 
-********************************/
 // sm devices
 @mixin sm {
   @media screen and (max-width: #{$screen-max-width-sm}) {
@@ -40,3 +50,25 @@ Bearkpoints Mixins
     @content;
   }
 }
+
+
+/*******************************
+Flex Mixins 
+********************************/
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

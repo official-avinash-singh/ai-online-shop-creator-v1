@@ -1,17 +1,9 @@
 /*
-This is scss (styling) file.
-This file contains styling for components
-To SEARCH styling properties fro any component,
-search that component name
-*/ 
+This is Navbar component styling file.
+*/
 
-// imports
-/*Importing abstract files & styleguide both,
-even when abstract file is imported in styleguide
-because "@use" is file scoped.
-*/ 
-@use './abstract/index' as *;
-@use './layout.styles..scss';
+@use '../abstract/color' as *;
+
 
 /***************************
 SideNavbar Styling
@@ -62,10 +54,3 @@ SideNavbar Styling
     }
 
 }
-
-
-
-/***************************
-TransactionCard Styling
-****************************/
-

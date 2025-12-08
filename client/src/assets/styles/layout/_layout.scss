@@ -4,7 +4,8 @@ This file contains styling for basic layout & common styling
 */
 
 // imports
-@use './abstract/index' as *;
+@use '../abstract/mixin' as *;
+@use '../abstract/color' as *;
 
 // Common Layout stylings
 body {

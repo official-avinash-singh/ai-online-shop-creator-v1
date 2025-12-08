@@ -1,0 +1,22 @@
+/*
+This is typography classes
+16px is standard base size.
+Mostly readable content should not go down this limit
+*/
+
+// imports
+@use '../abstract/mixin' as *;
+
+// Font Family
+
+// Font Sizes
+h1,
+.h1 {
+  font-size: 2.875rem;
+  line-height: 2.875rem;
+
+  @include sm {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+}
