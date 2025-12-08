@@ -1,0 +1,102 @@
+/*
+This is typography classes
+16px is standard base size.
+Mostly readable content should not go down this limit
+*/
+
+// Font Family
+
+// Font Sizes
+h1,
+.h1 {
+  font-size: 2.875rem;
+  line-height: 2.875rem;
+
+  @include sm {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 2.375rem;
+  line-height: 2.375rem;
+
+  @include sm {
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+
+  @include sm {
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+  }
+
+}
+
+h4,
+.h4 {
+  font-size: 1.375rem;
+  line-height: 1.375rem;
+}
+
+
+.body-text-100 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+// recommended for paragraph / button text
+.body-text-90 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+// recommended for paragraph / form controls / lables / placeholders
+.body-text-80 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.body-text-75 {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.body-text-70 {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+// recommended for captions / tab button text
+.body-text-65 {
+  font-size: 0.815rem;
+  line-height: 1rem;
+}
+
+// recommended copyright text
+.body-text-60 {
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+}
+
+// Font Boldness
+.font-bold {
+  font-weight: 700;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+

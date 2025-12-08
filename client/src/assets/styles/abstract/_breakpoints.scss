@@ -1,0 +1,42 @@
+/*******************************
+This is breakpoint styles
+********************************/
+
+// screen resolution variables for breakpoints
+$screen-max-width-sm: 767px;
+$screen-min-width-md: 768px;
+$screen-max-width-md: 1024px;
+$screen-min-width-lg: 1025px;
+$screen-max-width-lg: 1555px;
+$screen-min-width-xlg: 1556px;
+
+/*******************************
+Bearkpoints Mixins 
+********************************/
+// sm devices
+@mixin sm {
+  @media screen and (max-width: #{$screen-max-width-sm}) {
+    @content;
+  }
+}
+
+// md devices
+@mixin md {
+  @media screen and (min-width: #{$screen-min-width-md}) and (max-width: #{$screen-max-width-md}) {
+    @content;
+  }
+}
+
+// lg devices
+@mixin lg {
+  @media screen and (min-width: #{$screen-min-width-lg}) and (max-width: #{$screen-max-width-lg}) {
+    @content;
+  }
+}
+
+// xlg devices
+@mixin xl {
+  @media screen and (min-width: #{$screen-min-width-xlg}) {
+    @content;
+  }
+}

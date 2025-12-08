@@ -1,0 +1,71 @@
+/*
+This is scss (styling) file.
+This file contains styling for components
+To SEARCH styling properties fro any component,
+search that component name
+*/ 
+
+// imports
+/*Importing abstract files & styleguide both,
+even when abstract file is imported in styleguide
+because "@use" is file scoped.
+*/ 
+@use './abstract/index' as *;
+@use './layout.styles..scss';
+
+/***************************
+SideNavbar Styling
+****************************/
+.sideNavbar {
+    max-width: 240px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 12px;
+
+    .brand-logo__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+        .brand-logo{
+            display: inline-block;
+            text-align: center;
+            padding: 10px 16px;
+            background-color: $primary-color-100;
+            color: $primary-color-10;
+            border-radius: 12px;
+        }
+    }
+
+    .sideNavbar--menu-item__list {
+        .ideNavbar--menu-item {
+            cursor: pointer;
+            text-decoration: none;
+            list-style: none;
+            color: $grey-muted-30;
+
+            &:hover{
+                color: $primary-color-100;
+            }
+
+            &:active{
+                color: $primary-color-100;
+            }
+            span {
+                margin-right: 8px;
+            }
+
+        }
+
+    }
+
+}
+
+
+
+/***************************
+TransactionCard Styling
+****************************/
+
