@@ -1,9 +1,12 @@
 import './assets/styles/main.styles.scss';
+import LoginSignUp from './components/LoginSignUp';
+import Navbar from './components/Navbar';
 function App() {
 
   return (
     <>
-      <h1 className="text-center section-width">This is App component.</h1>
+      <Navbar />
+      <LoginSignUp />
     </>
   )
 }
