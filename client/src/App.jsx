@@ -1,12 +1,12 @@
 import './assets/styles/main.styles.scss';
-import LoginSignUp from './components/LoginSignUp';
-import Navbar from './components/Navbar';
+import Navbar from './molecules/Navbar';
+import LoginForm from './molecules/LoginForm';
 function App() {
 
   return (
     <>
       <Navbar />
-      <LoginSignUp />
+      <LoginForm />
     </>
   )
 }

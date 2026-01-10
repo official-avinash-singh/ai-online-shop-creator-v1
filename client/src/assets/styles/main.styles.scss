@@ -1,6 +1,6 @@
 /*
 This is the main entry point for the styling the application.
-Inclusing all the "_<<name>>" sub stylesheet here and including
+Including all the "_<<name>>" sub stylesheet here and including
 this alone file anywhere in the application will import all the styles.
 */
  
@@ -18,11 +18,11 @@ this alone file anywhere in the application will import all the styles.
 
 
 // Components Imports
-@use './component/navbar' as *;
+// @use './component/navbar' as *;
 
 
 // Page Imports
-@use './page/landingpage' as *;
+// @use './page/landingpage' as *;
 
 // Theme Imports
 
