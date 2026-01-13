@@ -17,11 +17,48 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 # To Do's
+
+EPIC 01
+--Sprint 01
     - Styling Setup
     - Dependency Installation
-    - Color Schema Buildup
-    - DB schema Buildup
-    - Sample Data Creation 
-    - Navbar 
-    - Landing Page
+    - Folder structure alignment
 
+--Sprint 02
+    - Sample Data Creation
+    - Git Protocol Setup
+    - Basic Flow Features List prep
+
+--Sprint 03
+    - Atoms Componenet Building, input, radio, image list etc...  
+
+--Sprint 04
+    - Creating Building molecules
+    - State mnagement concept if want to use
+    - Setting Login Feature, microservice
+    
+
+
+EPIC 02
+--Sprint 05
+    - Selecting a payment service, plan
+    - On basis of plan selected ccess rights are defined
+    - different features will be unlocked on the different plans
+
+--Sprint 06
+    - dashborad creation
+    - product management system
+    - how to make web application open for 3rd party plugins
+
+--Sprint 07
+    - listing of products
+    - managing variation of products
+    - managing categories of products
+
+--Sprint 08
+    - website themeing
+    - themem selection
+    - theme editing
+
+
+EPIC 03
