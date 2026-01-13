@@ -20,13 +20,13 @@ If you are developing a production application, we recommend using TypeScript wi
 
 EPIC 01
 --Sprint 01
-    - Styling Setup
-    - Dependency Installation
-    - Folder structure alignment
+    - Styling Setup - Done
+    - Dependency Installation - In Progress, (wiill continue)
+    - Folder structure alignment - In Progress, (wiill continue)
 
 --Sprint 02
-    - Sample Data Creation
-    - Git Protocol Setup
+    - Sample Data Creation - In Progress
+    - Git Protocol Setup - 
     - Basic Flow Features List prep
 
 --Sprint 03
