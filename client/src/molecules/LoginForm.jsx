@@ -1,11 +1,16 @@
 import React from "react";
 import InputField from "../atoms/InputField";
+import Button from "../atoms/Button";
 
 const LoginForm = () => {
   return (
     <>
-      This is Login Form Page
-      <InputField label="username" />
+      <div>
+        <InputField label="username" />
+        <InputField label="password" />
+        <Button>Sign In</Button>
+      </div>
+      
     </>
   );
 };

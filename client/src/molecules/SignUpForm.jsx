@@ -1,9 +1,17 @@
 import React from "react";
+import InputField from "../atoms/InputField";
+import Button from "../atoms/Button";
 
 const SignUpForm = () => {
   return (
     <>
-      This is Sign Up Form Page
+    <div>
+      <InputField label="Name" />
+      <InputField label="username" />
+      <InputField label="Name" />
+      <Button>Sign Up</Button>
+
+    </div>
     </>
   );
 };
