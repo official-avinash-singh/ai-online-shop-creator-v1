@@ -26,7 +26,7 @@ EPIC 01
 
 --Sprint 02
     - Sample Data Creation - In Progress
-    - Git Protocol Setup - 
+    - Git Protocol Setup - Done
     - Basic Flow Features List prep
 
 --Sprint 03
