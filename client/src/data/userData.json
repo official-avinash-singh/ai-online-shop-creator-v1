@@ -1,0 +1,175 @@
+
+{
+  "success": true,
+  "message": "Users fetched successfully",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "uuid": "usr_01h8j9k2m3n4p5q6r7s8t9u0",
+        "firstName": "Aarav",
+        "lastName": "Sharma",
+        "email": "aarav.sharma@luxecare.in",
+        "emailVerified": true,
+        "phone": "+91-9876543210",
+        "phoneVerified": true,
+        "avatar": "https://ui-avatars.com/api/?name=Aarav+Sharma&size=128&background=4f46e5",
+        "role": "customer",
+        "status": "active",
+        "isEmailVerified": true,
+        "isPhoneVerified": true,
+        "createdAt": "2025-01-10T10:30:00.000Z",
+        "updatedAt": "2026-01-14T18:45:12.345Z",
+        "lastLogin": "2026-01-14T23:19:00.000Z",
+        "profile": {
+          "gender": "male",
+          "dateOfBirth": "1992-05-15",
+          "fullAddress": {
+            "street": "123 MG Road, Fraser Road Area",
+            "city": "Patna",
+            "state": "Bihar",
+            "pincode": "800001",
+            "country": "India",
+            "coordinates": {
+              "lat": 25.5941,
+              "lng": 85.1376
+            }
+          }
+        },
+        "preferences": {
+          "theme": "dark",
+          "marketingEmails": true,
+          "smsNotifications": true,
+          "language": "en",
+          "currency": "INR"
+        },
+        "stats": {
+          "totalOrders": 5,
+          "totalSpent": 12499,
+          "membershipTier": "silver"
+        },
+        "recentOrders": [
+          {
+            "id": "ord_001",
+            "orderNumber": "LC-ORD-2026-001",
+            "date": "2026-01-12T14:20:00.000Z",
+            "total": 2499,
+            "status": "delivered",
+            "itemsCount": 2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "uuid": "usr_02h8j9k2m3n4p5q6r7s8t9u1",
+        "firstName": "Priya",
+        "lastName": "Singh",
+        "email": "priya.singh@luxecare.in",
+        "emailVerified": true,
+        "phone": "+91-8765432109",
+        "phoneVerified": false,
+        "avatar": "https://ui-avatars.com/api/?name=Priya+Singh&size=128&background=10b981",
+        "role": "vip_customer",
+        "status": "active",
+        "isEmailVerified": true,
+        "isPhoneVerified": false,
+        "createdAt": "2025-03-15T09:15:00.000Z",
+        "updatedAt": "2026-01-13T11:22:45.678Z",
+        "lastLogin": "2026-01-13T17:30:00.000Z",
+        "profile": {
+          "gender": "female",
+          "dateOfBirth": "1988-11-22",
+          "fullAddress": {
+            "street": "456 Patliputra Colony, Patliputra",
+            "city": "Patna",
+            "state": "Bihar",
+            "pincode": "800013",
+            "country": "India",
+            "coordinates": {
+              "lat": 25.6105,
+              "lng": 85.1048
+            }
+          }
+        },
+        "preferences": {
+          "theme": "light",
+          "marketingEmails": false,
+          "smsNotifications": true,
+          "language": "hi",
+          "currency": "INR"
+        },
+        "stats": {
+          "totalOrders": 12,
+          "totalSpent": 45875,
+          "membershipTier": "gold"
+        },
+        "recentOrders": [
+          {
+            "id": "ord_002",
+            "orderNumber": "LC-ORD-2026-002",
+            "date": "2026-01-10T16:45:00.000Z",
+            "total": 4599,
+            "status": "shipped",
+            "itemsCount": 3
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "uuid": "usr_03h8j9k2m3n4p5q6r7s8t9u2",
+        "firstName": "Rahul",
+        "lastName": "Kumar",
+        "email": "rahul.kumar@luxecare.in",
+        "emailVerified": false,
+        "phone": null,
+        "phoneVerified": false,
+        "avatar": "https://ui-avatars.com/api/?name=Rahul+Kumar&size=128&background=ef4444",
+        "role": "admin",
+        "status": "inactive",
+        "isEmailVerified": false,
+        "isPhoneVerified": false,
+        "createdAt": "2024-12-01T08:00:00.000Z",
+        "updatedAt": "2025-06-20T14:30:22.111Z",
+        "lastLogin": null,
+        "profile": {
+          "gender": "male",
+          "dateOfBirth": null,
+          "fullAddress": {
+            "street": "789 Exhibition Road",
+            "city": "Patna",
+            "state": "Bihar",
+            "pincode": "800006",
+            "country": "India"
+          }
+        },
+        "preferences": {
+          "theme": "system",
+          "marketingEmails": false,
+          "smsNotifications": false,
+          "language": "en",
+          "currency": "INR"
+        },
+        "stats": {
+          "totalOrders": 0,
+          "totalSpent": 0,
+          "membershipTier": "basic"
+        },
+        "recentOrders": []
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "totalPages": 25,
+      "totalRecords": 247,
+      "perPage": 10,
+      "hasNext": true,
+      "hasPrev": false
+    },
+    "filters": {
+      "status": ["active"],
+      "role": ["customer", "vip_customer", "admin"],
+      "search": ""
+    },
+    "timestamp": "2026-01-14T23:25:00.000Z"
+  }
+}
